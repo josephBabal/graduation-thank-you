@@ -367,7 +367,7 @@ p {
   height: 80%;
   background: white;
   transition: all 3s ease-in-out;
-  padding: 1.5em 3em;
+  padding: 1.5em;
   transform-origin: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -377,25 +377,17 @@ p {
 
 .letter.letter-expanded {
   
-  /* transform-origin: 50% 50%; */
   position: initial;
   margin-inline: auto;
 
-  /* right: initial;
-  bottom: initial;
-  top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  /* right: 0; */
   height: fit-content;
   width: 100%;
-  /* max-width: 800px; */
   overflow: visible;
   transition: all 1s ease-in-out;
 }
 
 .envelope.letter-expanded {
-  width: auto;;
+  width: auto;
 }
 
 
