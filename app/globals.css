@@ -259,7 +259,7 @@ p {
 }
 
 .gradient-background {
-  min-height: 100%;
+  min-height: fit-content;
   background: linear-gradient(0deg, #FFDAB9, #FBC1DF, #F8ACFF);
   background-size: 300% 300%;
   animation: moveGradient 15s ease infinite;
