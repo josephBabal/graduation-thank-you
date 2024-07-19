@@ -61,9 +61,7 @@ export const data2: DataProps[] = [
     id: 1,
     slug: "louie-shari-emma-48392015",
     name: "Louie, Shari and Emma",
-    content: `
-    
-    `
+    content: process.env.C_LSE!,
   },
   {
     id: 2,
@@ -99,21 +97,18 @@ export const data2: DataProps[] = [
     id: 6,
     slug: "don-jeannie-25013649",
     name: "Don and Jeannie",
-    content: `
-    `  
+    content: process.env.C_DJ!
 },
   {
     id: 7,
     slug: "folino-98162547",
     name: "Folino's",
-    content: `
-    `
+    content: process.env.C_FO!
   },
   {
     id: 8,
     slug: "gerry-lucia-46723018",
     name: "Uncle Gerry and Aunt Lucia",
-    content: `
-    `
+    content: process.env.C_UGAL!
   },
 ];
