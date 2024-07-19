@@ -1,10 +1,5 @@
-"use client";
-
-
-import Thankyou from "@/components/custom/Thank-you";
-import { data2 } from "@/data/data";
+import Thankyou from "@/components/custom/Thank-you";import { data2 } from "@/data/data";
 import { notFound } from "next/navigation";
-import { useRouter } from "next/router";
 
 const Recipient = ({ params }: { params: { recipient: string } }) => {
 
