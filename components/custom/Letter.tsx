@@ -25,13 +25,14 @@ const Letter = ({ from, content, name }: LetterProps) => {
     const envelopeAfter = CSSRulePlugin.getRule(".envelope::after");
     const wrapper = envelopeWrapperRef.current;
 
-    const letter = letterRef.current;
-    const envelope = envelopeRef.current;
+    const letter: any = letterRef.current;
+    const envelope: any = envelopeRef.current;
 
     const container = containerRef.current;
 
     const timeline = gsap.timeline({
       onComplete: () => {
+        
         letter.classList.add("letter-expanded");
         envelope.classList.add("letter-expanded");
       },
