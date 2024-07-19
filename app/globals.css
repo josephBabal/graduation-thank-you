@@ -151,6 +151,7 @@ html, body {
 }
 
 .bg-1 {
+  min-height: min-content;
   background-color:hsla(28,100%,86%,1);
   background-image:
   radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0px, transparent 50%),
@@ -161,6 +162,7 @@ html, body {
 }
 
 .bg-2 {
+  min-height: min-content;
   background-color:#e799ff;
   background-image:
   radial-gradient(at 86% 76%, hsla(233,98%,65%,1) 0px, transparent 50%),
@@ -282,7 +284,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+
   justify-content: center;
   padding-inline: 6%;
   padding-bottom: 1rem;
@@ -300,8 +302,7 @@ p {
 }
 
 .letter-container {
-  height: 100dvh;
-
+  height: 300dvh;
   /* height: 300px; */
   /* display: grid; */
   /* place-items: center; */
