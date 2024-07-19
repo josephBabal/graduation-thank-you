@@ -284,7 +284,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  gap: 5rem;
   justify-content: center;
   padding-inline: 6%;
   padding-bottom: 1rem;
