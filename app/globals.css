@@ -145,8 +145,9 @@ radial-gradient(at 18% 22%, hsla(303,61%,76%,1) 0px, transparent 50%); */
   /* padding-inline: 4%; */
 }
 
-body {
+html, body {
   font-size: var(--text-regular);
+  height: 100%;
 }
 
 .bg-1 {
